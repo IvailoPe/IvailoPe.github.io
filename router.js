@@ -4,8 +4,8 @@ import { addToCtx } from "./ctxFuncs.js";
 
 export function addRouting(){
     page(addToCtx)
-    page("ivailope.github.io/playGame",renderGame) 
-    page("https://ivailope.github.io/home",(ctx) => {
+    page("pokeritup.netlify.app/playGame",renderGame) 
+    page("pokeritup.netlify.app/home",(ctx) => {
         ctx.removeContent()
     })
      
