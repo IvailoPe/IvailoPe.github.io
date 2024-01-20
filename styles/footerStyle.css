@@ -1,0 +1,12 @@
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 1000px;
+    height: 70px;
+}
+
+footer li{
+    display: inline;
+    text-align: center;
+}

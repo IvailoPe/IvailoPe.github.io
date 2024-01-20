@@ -1,0 +1,96 @@
+#userBetIcon{
+    position: absolute;
+    width: 40px;
+    right: 476px;
+    top: 305px;
+    opacity: 0;
+}
+
+#player1BetIcon{
+    position: absolute;
+    width: 40px;
+    top: 227px;
+    left: 150px;
+    opacity: 0;
+}
+
+#player2BetIcon{
+    position: absolute;
+    width: 40px;
+    top: 161px;
+    left: 298px;
+    opacity: 0;
+}
+
+#player3BetIcon{
+    position: absolute;
+    width: 40px;
+    top: 161px;
+    right: 294px;
+    opacity: 0;
+}
+
+#player4BetIcon{
+    position: absolute;
+    width: 40px;
+    top: 227px;
+    right: 150px;
+    opacity: 0;
+}
+
+#userBetSize{
+    position: absolute;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    width: 40px;
+    right: 477px;
+    top: 320px;
+}
+
+#player1BetSize{
+    position: absolute;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    width: 40px;
+    top: 243px;
+    left: 150px;
+}
+
+#player2BetSize{
+    position: absolute;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    width: 40px;
+    top: 176px;
+    left: 298px;
+}
+
+#player3BetSize{
+    position: absolute;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    width: 40px;
+    top: 176px;
+    right: 294px;
+}
+
+#player4BetSize{
+    position: absolute;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    width: 40px;
+    top: 243px;
+    right: 150px;
+}
+
+#pot-container{
+    display: inline-block;
+    position: absolute;
+    right: 475px;
+    top: 124px;
+    opacity: 0;
+}
+
+#pot-container img{
+    width: 50px;
+}

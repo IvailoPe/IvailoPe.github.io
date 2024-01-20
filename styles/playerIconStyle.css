@@ -1,0 +1,39 @@
+#userIcon{
+  position: absolute;
+  left: 467px;
+  top: 448px;
+  width: 75px;
+  opacity: 0.2;
+}
+
+#player1Icon{
+  position: absolute;
+  left: -18px;
+  top: 224px;
+  width: 75px;
+  opacity: 0.2;
+}
+
+#player2Icon{
+  position: absolute;
+  left: 280px;
+  top: 0px;
+  width: 75px;
+  opacity: 0.2;
+}
+
+#player3Icon{
+  position: absolute;
+  left: 647px;
+  top: 0px;
+  width: 75px;
+  opacity: 0.2;
+}
+
+#player4Icon{
+  position: absolute;
+  right: -18px;
+  top: 224px;
+  width: 75px;
+  opacity: 0.2;
+}

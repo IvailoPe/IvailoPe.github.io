@@ -1,0 +1,44 @@
+nav ul{
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0px 40px 0px 40px;
+    height: 70px;
+    width: 80px;
+    text-align: center;
+}
+
+nav li:hover{
+    background-color: white;
+    border-color: white;
+}
+
+nav li:hover a{
+    color: black;
+}
+
+nav p{
+    margin-top: 24px;
+}
+
+nav a{
+    font-family: 'Trebuchet MS';
+    font-size: 17px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav img{
+  float: left;
+  margin-left: 25px;
+  margin-top: 0px;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 70px;
+}
