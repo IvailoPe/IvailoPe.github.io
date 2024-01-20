@@ -4,8 +4,8 @@ import { addToCtx } from "./ctxFuncs.js";
 
 export function addRouting(){
     page(addToCtx)
-    page("/playGame",renderGame) 
-    page("/home",(ctx) => {
+    page("ivailope.github.io/playGame",renderGame) 
+    page("ivailope.github.io/home",(ctx) => {
         ctx.removeContent()
     })
      
