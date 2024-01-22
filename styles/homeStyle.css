@@ -1,0 +1,102 @@
+#welcomeConteiner{
+    width: 800px;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#welcomeConteiner h1{
+   color: whitesmoke;
+   display: inline-block;
+   font-size: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-bottom: auto;
+   margin-top: auto;
+}
+
+#welcomeConteiner img{
+    width: 202;
+    height: 220;
+}
+
+#navigationConteiner{
+    width: 800px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+#navigationConteiner h1{
+    text-align: center;
+    margin: 0;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.navigationMessage{
+    display: inline-block;
+    border: 10px solid;
+    border-image: url("/pictures/modified_TESTTTT.png") 30 repeat;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    
+}
+
+#navigationConteiner [alt="questMark"]{
+    width: 50px;
+    height: 50px;
+}
+
+#navigationFirstMessageConteiner{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#navigationSecondMessageConteiner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#navigationSecondMessageConteiner [alt="joystick"]{
+    width: 100px;
+    height: 50px;
+}
+
+@media only screen and (max-width: 900px){
+    #welcomeConteiner{
+        margin-left: 0;
+    }
+    #navigationConteiner{
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 770px){
+    #welcomeConteiner{
+        justify-content: flex-start;
+    }
+    #navigationFirstMessageConteiner{
+        justify-content: flex-start;
+    }
+    #navigationSecondMessageConteiner{
+        justify-content: flex-start;
+    }
+    #navigationConteiner h1{
+        margin-right: 140px;
+    }
+}

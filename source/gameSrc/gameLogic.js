@@ -425,4 +425,4 @@ function checkWhoWins() {
 }
 
 
-export { dealCards, choosingDealer, forceBets, communityCards, fiveRounds }
+export { dealCards, choosingDealer, forceBets, communityCards, fiveRounds,clearCards,resetState }

@@ -10,3 +10,9 @@ body{
    /* border-color: black;
     border-style: solid;*/
 }
+
+@media screen and (max-width: 1000px) and (max-height: 750px) {
+  #page {
+    height: auto;
+  }
+}
